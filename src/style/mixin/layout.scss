@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+@mixin flex($direction:column,$inline:block,$wrap:wrap) {
+    display: if($inline==block,flex,inline-flex);
+    flex-direction: $direction;
+    flex-wrap: $wrap;
+}
+
+@mixin beforeImg($content:'',$url:'',$width:'',$height:'',$position:'relative',$top:'',$left:'',$right:'',$bottom:'') {
+    content: $content;
+    background: url($url) center center no-repeat;
+    background-size: $width if($height=='', $width, $height);
+    width: $width;
+    height: if($height=='', $width, $height);
+    position: $position;
+    @if $top != '' {
+        top: $top;
+    }
+    @if $left != '' {
+        left: $left;
+    }
+    @if $right != '' {
+        right: $right;
+    }
+    @if $bottom != '' {
+        bottom: $bottom;
+    }
+}
