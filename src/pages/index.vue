@@ -1,21 +1,18 @@
 <template>
     <Layout>
-        <p @click="switchLang">{{$t('message.hello')}} <- 点这里切换语言</p>
+        <HelloWorld />
     </Layout>
 </template>
 
 <script>
     import Layout from '@/container/layout';
+    import {HelloWorld} from '@/components';
 
     export default {
         name: "Home",
         components: {
-            Layout
-        },
-        methods: {
-            switchLang() {
-                this.$i18n.locale = this.$i18n.locale === 'cn' ? 'en' : 'cn';
-            }
+            Layout,
+            HelloWorld
         }
     }
 </script>
