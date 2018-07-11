@@ -34,4 +34,6 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 5、支持多语言切换，自带vue-i18n，只需要在i18n的lang文件下添加对应的语言包，并添加依赖即可。
 
 6、组件（components）、布局（container）、页面（pages）搭配优化，提高编写效率，降低维护难度。
+
+7、自动提交git所在仓库，项目根目录下运行 ./push.sh 即可。（需先进行权限操作，运行 chmod 755 push.sh）
 ```
