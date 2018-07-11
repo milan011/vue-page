@@ -8,7 +8,7 @@
     import Layout from '@/container/layout';
 
     export default {
-        name: "",
+        name: "Home",
         components: {
             Layout
         },
