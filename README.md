@@ -1,6 +1,6 @@
 # vue-page
 
-> vue-page
+> vue-init 模版
 
 ## Build Setup
 
