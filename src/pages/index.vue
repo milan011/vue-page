@@ -1,5 +1,7 @@
 <template>
-    <Layout></Layout>
+    <Layout>
+        {{$t('message.hello')}}
+    </Layout>
 </template>
 
 <script>

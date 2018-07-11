@@ -1,5 +1,5 @@
 export default {
     message: {
-        'hello': '妳好，世界',
+        'hello': '你好，世界',
     }
 }
