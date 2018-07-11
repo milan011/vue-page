@@ -35,5 +35,5 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 
 6、组件（components）、布局（container）、页面（pages）搭配优化，提高编写效率，降低维护难度。
 
-7、自动提交git所在仓库，项目根目录下运行 ./push.sh 即可。（需先进行权限操作，运行 chmod 755 push.sh）
+7、自动提交git所在仓库，项目根目录下运行 ./push.sh 即可（需先进行权限操作，运行 chmod 755 push.sh）。
 ```
