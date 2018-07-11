@@ -1,6 +1,6 @@
-# tw-home
+# vue-page
 
-> tw-home
+> vue-page
 
 ## Build Setup
 
