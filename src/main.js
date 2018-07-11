@@ -4,13 +4,15 @@ import Vue from 'vue';
 import App from './App';
 import router from './router';
 import 'normalize.css';
+import i18n from './i18n/i18n';
 
 Vue.config.productionTip = false;
 
 /* eslint-disable no-new */
 new Vue({
-  el: '#app',
-  router,
-  components: { App },
-  template: '<App/>'
+    el: '#app',
+    i18n,
+    router,
+    components: {App},
+    template: '<App/>'
 });
