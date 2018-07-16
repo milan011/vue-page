@@ -34,4 +34,9 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 5、组件（components）、布局（container）、页面（pages）搭配优化，提高编写效率，降低维护难度。
 
 6、一键提交。项目根目录下运行 ./push.sh 即可（需先进行权限操作，运行 chmod 755 push.sh）。
+
+7、内置Element-ui，同样支持国际化配置，支持按需引入和全量引入的国际化，只需跟换main.js引入i18n的目录位置即可：
+全量引入Element-ui使用 import i18n from './i18n/i18n';
+按需引入Element-ui使用 import i18n from './i18n/i18n-el-need'; 同时main.js和.babellrc中参照Element-ui文档进行按需引入配置
+(添加时间：2018.07.16)
 ```

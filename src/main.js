@@ -8,7 +8,7 @@ import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
 // normalize.css
 import 'normalize.css';
-// i18n.config
+// i18n配置
 import i18n from './i18n/i18n';
 
 // Element-ui全量引入的国际化
