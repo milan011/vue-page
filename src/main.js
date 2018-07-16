@@ -3,8 +3,18 @@
 import Vue from 'vue';
 import App from './App';
 import router from './router';
+// Element-ui
+import ElementUI from 'element-ui';
+import 'element-ui/lib/theme-chalk/index.css';
+// normalize.css
 import 'normalize.css';
+// i18n.config
 import i18n from './i18n/i18n';
+
+// Element-ui全量引入的国际化
+Vue.use(ElementUI,{
+    i18n:(key,value) =>i18n.t(key,value)
+});
 
 Vue.config.productionTip = false;
 
