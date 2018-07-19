@@ -42,4 +42,7 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
      |- 按需引入Element-ui使用 import i18n from './i18n/i18n-el-need'; 同时main.js和.babellrc中参照Element-ui文档进行按需引入配置
      |
 (添加时间：2018.07.16)
+
+8、封装axios请求（进行中）
+
 ```
