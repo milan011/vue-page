@@ -1,6 +1,6 @@
 #!/bin/sh
 
-echo "正在添加文件...";
+echo "正在添加文件..."
 git add .
 echo -n "正在提交备注...，请填写备注（可空）"
 read remarks
