@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+.container {
+    width: 1226px;
+}
+
 @mixin flex($direction:column,$inline:block,$wrap:wrap) {
     display: if($inline==block,flex,inline-flex);
     flex-direction: $direction;
