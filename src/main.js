@@ -10,10 +10,12 @@ import 'element-ui/lib/theme-chalk/index.css';
 import 'normalize.css';
 // i18n配置
 import i18n from './i18n/i18n';
+// vuex
+import store from './store';
 
 // Element-ui全量引入的国际化
-Vue.use(ElementUI,{
-    i18n:(key,value) =>i18n.t(key,value)
+Vue.use(ElementUI, {
+    i18n: (key, value) => i18n.t(key, value)
 });
 
 Vue.config.productionTip = false;
@@ -22,6 +24,7 @@ Vue.config.productionTip = false;
 new Vue({
     el: '#app',
     i18n,
+    store,
     router,
     components: {App},
     template: '<App/>'
