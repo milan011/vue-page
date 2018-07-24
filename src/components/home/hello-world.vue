@@ -10,7 +10,7 @@
         methods: {
             switchLang() {
                 this.$i18n.locale = this.$i18n.locale === 'cn' ? 'en' : 'cn';
-                this.$message(`切换到 ${this.$i18n.locale === 'cn' ? '中文' : '英文'}（语言 + 组件 ）`);
+                this.$message(`切换到 ${this.$i18n.locale === 'cn' ? '中文' : '英文'}（语言 & 组件 ）`);
             }
         }
     }
