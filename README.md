@@ -46,3 +46,6 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 8、封装axios请求（2018.07.19 -> 2018.07.24）
 
 ```
+
+## 参考
+1、[基于 vue2 + vuex 构建一个具有 45 个页面的大型单页面应用](https://github.com/bailicangdu/vue2-elm)
