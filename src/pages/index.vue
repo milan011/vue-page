@@ -21,7 +21,7 @@
                 Vuex示例
             </el-col>
             <el-col :span="12">
-                <el-input placeholder="请输入内容" :value="getUpper"></el-input>
+                <el-input placeholder="请输入内容" :value="getUpper" clearable></el-input>
             </el-col>
             <el-col :span="12">
                 <el-button type="primary" @click="doSplit('123')">点我追加数字123</el-button>
