@@ -1,17 +1,26 @@
 <template>
     <Layout>
+        <!-- 示例组件 -->
         <HelloWorld/>
+        <!-- Element-ui组件 -->
         <el-pagination
             :page-sizes="[100, 200, 300, 400]"
             :page-size="100"
             layout="total, sizes, prev, pager, next, jumper"
             :total="400">
         </el-pagination>
-        <div>
-            <el-input placeholder="请输入内容" :value="getUpper"></el-input>
-            <el-button type="primary" @click="doSplit('123')">点我追加数字123</el-button>
-            <span></span>
-        </div>
+        <!-- Vuex示例 -->
+        <el-row>
+            <el-col :span="24">
+                Vuex示例
+            </el-col>
+            <el-col :span="12">
+                <el-input placeholder="请输入内容" :value="getUpper"></el-input>
+            </el-col>
+            <el-col :span="12">
+                <el-button type="primary" @click="doSplit('123')">点我追加数字123</el-button>
+            </el-col>
+        </el-row>
 
     </Layout>
 </template>

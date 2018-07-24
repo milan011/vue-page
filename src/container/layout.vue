@@ -1,16 +1,22 @@
 <template>
     <div class="container">
-        <header>this is header</header>
+        <Header/>
         <div class="content">
             <slot></slot>
         </div>
-        <footer class="footer">this is footer</footer>
+        <Footer/>
     </div>
 </template>
 
 <script>
+    import {Header, Footer} from '@/components'
+
     export default {
-        name: "Layout"
+        name: "Layout",
+        components: {
+            Header,
+            Footer
+        }
     }
 </script>
 
