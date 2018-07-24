@@ -27,6 +27,7 @@
         min-height: 100vh;
         .content {
             flex: 1;
+            padding: 0 20px;
         }
         .footer {
             margin-top: auto;
