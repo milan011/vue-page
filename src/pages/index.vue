@@ -34,6 +34,7 @@
     import Layout from '@/container/layout';
     import {HelloWorld} from '@/components';
     import {mapState, mapActions, mapGetters, mapMutations} from "vuex";
+    import {login} from '@/service/getData'
 
     export default {
         name: "Home",
@@ -43,7 +44,8 @@
         },
         data() {
             return {
-                input: ''
+                input: '',
+                userName: ''
             }
         },
         computed: {
@@ -56,6 +58,11 @@
                     str: this.getUpper,
                     num: num
                 })
+            },
+            // 请求接口示例
+            async doLogin() {
+                let userInfo = await login();
+                this.userName = userInfo.name;
             }
         }
     }
