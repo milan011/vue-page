@@ -1,3 +1,7 @@
+/*
+ * 国际化Element-ui全量引入版
+ */
+
 import Vue from 'vue';
 import VueI18n from 'vue-i18n';
 import messages from './langs';

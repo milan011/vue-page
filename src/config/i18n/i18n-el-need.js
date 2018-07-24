@@ -1,3 +1,7 @@
+/*
+ * 国际化Element-ui按需引入版
+ */
+
 import Vue from 'vue';
 import locale from 'element-ui/lib/locale';
 import VueI18n from 'vue-i18n';

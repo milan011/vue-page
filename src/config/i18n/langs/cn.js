@@ -1,4 +1,8 @@
-import zhLocale from 'element-ui/lib/locale/lang/zh-CN';
+/*
+ * 国际化中文语言包
+ */
+
+import zhLocale from 'element-ui/lib/locale/lang/zh-CN';        // Element-ui语言包，不用可以删除
 
 export default {
     message: {

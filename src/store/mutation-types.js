@@ -1,4 +1,6 @@
-// 所有 Mutations 常量，均为大写
+/*
+ * 集中管理所有 Mutations 常量，均为大写
+ */
 
-// DEMO type
+// DEMO
 export const UPPERCASE_SUCCESS = 'UPPERCASE_SUCCESS';
