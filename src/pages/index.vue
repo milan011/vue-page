@@ -21,7 +21,7 @@
                 2、Vuex示例
             </el-col>
             <el-col :span="12">
-                <el-input placeholder="请输入内容" :value="getUpper" clearable></el-input>
+                <el-input placeholder="请输入内容" :value="getUpper" clearable @clear="clear"></el-input>
             </el-col>
             <el-col :span="12">
                 <el-button type="primary" @click="doSplit('123')">点我追加数字123</el-button>
@@ -53,11 +53,16 @@
         },
         methods: {
             ...mapActions("demo", ["splitStr"]),
+            // Vuex示例
             doSplit(num) {
                 this.splitStr({
                     str: this.getUpper,
                     num: num
-                })
+                });
+                this.$message('已经存到Vuex中管理了');
+            },
+            clear() {
+                this.$message('下次还是会取到Vuex中的值，除非刷新页面');
             },
             // 请求接口示例
             async doLogin() {
