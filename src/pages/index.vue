@@ -1,14 +1,20 @@
 <template>
     <Layout>
-        <!-- 示例组件 -->
-        <HelloWorld/>
-        <!-- Element-ui组件 -->
-        <el-pagination
-            :page-sizes="[100, 200, 300, 400]"
-            :page-size="100"
-            layout="total, sizes, prev, pager, next, jumper"
-            :total="400">
-        </el-pagination>
+        <!-- 国际化示例 -->
+        <el-row>
+            <el-col :span="24">
+                国际化示例
+            </el-col>
+            <!-- 示例组件 -->
+            <HelloWorld/>
+            <!-- Element-ui组件 -->
+            <el-pagination
+                :page-sizes="[100, 200, 300, 400]"
+                :page-size="100"
+                layout="total, sizes, prev, pager, next, jumper"
+                :total="400">
+            </el-pagination>
+        </el-row>
         <!-- Vuex示例 -->
         <el-row>
             <el-col :span="24">
@@ -21,7 +27,6 @@
                 <el-button type="primary" @click="doSplit('123')">点我追加数字123</el-button>
             </el-col>
         </el-row>
-
     </Layout>
 </template>
 
@@ -52,9 +57,6 @@
                     num: num
                 })
             }
-        },
-        mounted() {
-            console.log(this.getUpper)
         }
     }
 </script>
