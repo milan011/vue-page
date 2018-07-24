@@ -56,3 +56,9 @@
     left: 50%;
     transform: translateX(-50%);
 }
+
+//字体大小，颜色
+@mixin sc($size, $color){
+    font-size: $size;
+    color: $color;
+}
