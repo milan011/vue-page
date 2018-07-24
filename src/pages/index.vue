@@ -1,9 +1,9 @@
 <template>
-    <Layout>
+    <Layout class="m-layout">
         <!-- 国际化示例 -->
-        <el-row>
-            <el-col :span="24">
-                国际化示例
+        <el-row class="demo">
+            <el-col :span="24" class="title">
+                1、国际化示例
             </el-col>
             <!-- 示例组件 -->
             <HelloWorld/>
@@ -16,9 +16,9 @@
             </el-pagination>
         </el-row>
         <!-- Vuex示例 -->
-        <el-row>
-            <el-col :span="24">
-                Vuex示例
+        <el-row class="demo">
+            <el-col :span="24" class="title">
+                2、Vuex示例
             </el-col>
             <el-col :span="12">
                 <el-input placeholder="请输入内容" :value="getUpper" clearable></el-input>
@@ -69,5 +69,14 @@
 </script>
 
 <style lang="scss" scoped>
-
+    .m-layout {
+        .demo {
+            margin: 20px auto;
+            line-height: 1.7;
+            .title {
+                margin: 10px auto;
+                font-weight: bold;
+            }
+        }
+    }
 </style>

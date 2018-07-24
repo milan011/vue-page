@@ -4,7 +4,7 @@
         <div class="content">
             <slot></slot>
         </div>
-        <Footer/>
+        <Footer class="footer"/>
     </div>
 </template>
 
@@ -22,6 +22,14 @@
 
 <style lang="scss" scoped>
     .container {
-
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        .content {
+            flex: 1;
+        }
+        .footer {
+            margin-top: auto;
+        }
     }
 </style>
