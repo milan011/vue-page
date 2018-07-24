@@ -1,3 +1,4 @@
+// 用于集中管理接口请求
 import axios from '@/config/axios';
 
 /**
