@@ -43,6 +43,6 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
      |
 (添加时间：2018.07.16)
 
-8、封装axios请求（2018.07.19 -> 进行中）
+8、封装axios请求（2018.07.19 -> 2018.07.24）
 
 ```
