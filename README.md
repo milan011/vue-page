@@ -45,9 +45,10 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 
 8、封装axios请求（2018.07.19 -> 2018.07.24）
 
-9、兄弟组件通信，bus.js保证兄弟组件的通信。(添加时间：2018.07.25)
+9、兄弟组件通信，用bus.js保证兄弟组件的通信。(添加时间：2018.07.25)
 ```
 
 ## 参考
 1、[基于 vue2 + vuex 构建一个具有 45 个页面的大型单页面应用](https://github.com/bailicangdu/vue2-elm)
+
 2、[vue 2 使用Bus.js实现非父子组件通信](https://segmentfault.com/a/1190000010845885)
