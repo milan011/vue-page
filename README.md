@@ -50,3 +50,4 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 
 ## 参考
 1、[基于 vue2 + vuex 构建一个具有 45 个页面的大型单页面应用](https://github.com/bailicangdu/vue2-elm)
+2、[vue 2 使用Bus.js实现非父子组件通信](https://segmentfault.com/a/1190000010845885)
