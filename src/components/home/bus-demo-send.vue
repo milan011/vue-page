@@ -16,7 +16,7 @@
         name: "HelloWorld",
         data() {
             return {
-                val: ''
+                val: '你好，我的兄弟组件'
             }
         },
         methods: {
