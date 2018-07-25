@@ -4,11 +4,13 @@
  * 引入方式为 import {Header, ...} from '@/components';
  */
 
-import {HelloWorld} from './home';
+import {HelloWorld,BusSend,BusReceive} from './home';
 import {Header, Footer} from './common';
 
 export {
     Header,
     Footer,
-    HelloWorld
+    HelloWorld,
+    BusSend,
+    BusReceive
 }

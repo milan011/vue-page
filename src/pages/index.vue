@@ -27,12 +27,24 @@
                 <el-button type="primary" @click="doSplit('123')">点我追加数字123</el-button>
             </el-col>
         </el-row>
+        <!-- Bus.js兄弟组件通信示例 -->
+        <el-row class="demo">
+            <el-col :span="24" class="title">
+                3、Bus.js兄弟组件通信示例
+            </el-col>
+            <el-col :span="12">
+                <BusSend></BusSend>
+            </el-col>
+            <el-col :span="12">
+                <BusReceive></BusReceive>
+            </el-col>
+        </el-row>
     </Layout>
 </template>
 
 <script>
     import Layout from '@/container/layout';
-    import {HelloWorld} from '@/components';
+    import {HelloWorld, BusSend, BusReceive} from '@/components';
     import {mapState, mapActions, mapGetters, mapMutations} from "vuex";
     import {login} from '@/service/getData'
 
@@ -40,11 +52,12 @@
         name: "Home",
         components: {
             Layout,
-            HelloWorld
+            HelloWorld,
+            BusSend,
+            BusReceive
         },
         data() {
             return {
-                input: '',
                 userName: ''
             }
         },

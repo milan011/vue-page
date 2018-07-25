@@ -5,7 +5,11 @@
  */
 
 import HelloWorld from './hello-world'
+import BusSend from './bus-demo-send'
+import BusReceive from './bus-demo-receive'
 
 export {
-    HelloWorld
+    HelloWorld,
+    BusSend,
+    BusReceive
 }
