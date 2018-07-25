@@ -25,7 +25,7 @@
                 this.$message(`切换到 ${this.$i18n.locale === 'cn' ? '中文' : '英文'}（语言 & 组件 ）`);
             },
             sendMsg() {
-                Bus.$emit('on', `来自兄弟组件的消息：${this.val}`)
+                Bus.$emit('on', `收到左边兄弟组件的消息：${this.val}`)
             }
         }
     }

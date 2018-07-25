@@ -1,6 +1,6 @@
 <template>
     <div>
-        <p>{{message}}</p>
+        <p>-> 我是右边的兄弟 {{message}}</p>
     </div>
 </template>
 
