@@ -45,6 +45,7 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 
 8、封装axios请求（2018.07.19 -> 2018.07.24）
 
+9、兄弟组件通信，bus.js保证兄弟组件的通信。(添加时间：2018.07.25)
 ```
 
 ## 参考
