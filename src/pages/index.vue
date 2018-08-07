@@ -46,7 +46,7 @@
     import Layout from '@/container/layout';
     import {HelloWorld, BusSend, BusReceive} from '@/components';
     import {mapState, mapActions, mapGetters, mapMutations} from "vuex";
-    import {login} from '@/service/getData'
+    import {apiAddress} from '@/request/api';// 导入我们的api接口
 
     export default {
         name: "Home",
@@ -77,10 +77,15 @@
             clear() {
                 this.$message('下次还是会取到Vuex中的值，除非刷新页面');
             },
-            // 请求接口示例
-            async doLogin() {
-                let userInfo = await login();
-                this.userName = userInfo.name;
+            // 获取数据
+            requestApi() {
+                // 调用api接口，并且提供了两个参数
+                apiAddress({
+                    type: 0,
+                    sort: 1
+                }).then(res => {
+                    // 获取数据成功后的其他操作
+                })
             }
         }
     }

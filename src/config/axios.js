@@ -1,5 +1,6 @@
 /*
  * 创建的 axios 实例，可以参考 axios官网文档 自己进行更多的配置
+ * （已废弃，更新的axios用src/request）
  */
 
 import axios from 'axios';
