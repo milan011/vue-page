@@ -52,3 +52,5 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 1、[基于 vue2 + vuex 构建一个具有 45 个页面的大型单页面应用](https://github.com/bailicangdu/vue2-elm)
 
 2、[vue 2 使用Bus.js实现非父子组件通信](https://segmentfault.com/a/1190000010845885)
+
+3、[vue中Axios的封装和API接口的管理](https://juejin.im/post/5b55c118f265da0f6f1aa354?utm_source=gold_browser_extension)
