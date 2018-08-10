@@ -54,3 +54,5 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 2、[vue 2 使用Bus.js实现非父子组件通信](https://segmentfault.com/a/1190000010845885)
 
 3、[vue中Axios的封装和API接口的管理](https://juejin.im/post/5b55c118f265da0f6f1aa354?utm_source=gold_browser_extension)
+
+4、[基于vue2.0生态的后台管理系统模板（spa）](https://github.com/lss5270/vue-admin-spa)
